@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJE -WEBSITE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+    </script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Raleway:wght@300&family=Teko:wght@300&display=swap"
+        rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/ae09738e43.js" crossorigin="anonymous"></script>
+<style>
+    *{
+    box-sizing: border-box;
+    margin: 0;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background: rgb(233, 200, 233);
+}
+
+.resimSlider{
+    height: 500px;
+}
+
+body{
+    
+    font-family: 'Raleway', sans-serif;
+}
+.navbar-brand{
+    color: purple;
+    font-size: 32px;
+}
+.nav-link{
+    color: white;
+    font-size: 20px;
+
+}
+.container h2{
+    font-size: 60px;
+    color: pink;
+}
+.hakkimizda{
+    background-color: #f2f2f2;
+}
+
+.ayrac{
+    border: none;
+    border-top: 3px solid #343a40;
+    max-width: 250px;
+    margin: 25px auto;
+}
+
+.ibeyaz{
+    color: #343a40;
+    position: relative;
+    top: -55px;
+    font-size: 40px;
+    border: 10px solid white;
+    background-color: white;
+}
+
+.igri{
+    color: #343a40;
+    position: relative;
+    top: -55px;
+    font-size: 40px;
+    border: 10px solid #f2f2f2;
+    background-color: #f2f2f2;
+}
+
+.ekipCard>img:hover{
+    opacity: 0.8;
+}
+
+.galeri{
+    background-color: #f2f2f2;
+}
+
+.figure:hover{
+    opacity: 0.8;
+}
+.col-md-4{
+    font-size: 20px;
+    font-weight: 600;
+    color: silver;
+} 
+
+.footer a{
+    color: #999999;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+.footer p{
+    margin-bottom: 1.0rem;
+    margin-top: 20px;
+    margin-left: 80px
+}
+.footer .footer-cols{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) ;
+    grid-gap: 2rem;
+    justify-content: center;
+}
+.footer li{
+    line-height: 2.4;
+    list-style: none;
+}
+</style>
+</head>
+
+<body>
+
+    <!--MENU START-->
+
+    <nav class="navbar navbar-expand-lg  navbar-bg-warning bg-gray fixet-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">PERSONA PSİKOLOJİ</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse jusfity-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#carouselExampleIndicators">Anasayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hakkimizda">Hakkımızda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ekibimiz">Ekibimiz</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hizmetlerimiz">Hizmetlerimiz</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#iletisim">İletişim</a>
+                    </li>
+                    
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!--MENU END-->
+
+
+    <!--SLİDER START-->
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/Terapi.png" class="d-block w-100 resimSlider" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/oyun-terapisi-scaled.jpg" class="d-block w-100 resimSlider" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/Marsilya-Turk-Psikolog.jpg" class="d-block w-100 resimSlider" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!--SLIDER END-->
+
+
+    <!--HAKKIMIZDA START-->
+
+    <section class="p-5 text-center hakkimizda" id="hakkimizda">
+        <div class="container">
+
+            <h2 class="mb-5 font-weight-bold" >Hakkımızda</h2>
+
+            <hr class="ayrac"><i class="fa-solid fa-leaf igri"></i>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore atque fuga sint ex eos nostrum vitae
+                nobis ipsam, consequatur saepe minima doloribus reiciendis numquam fugiat neque. Omnis et adipisci
+                nihil!
+            </p>
+
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit esse dolor omnis incidunt enim
+                deserunt minima pariatur? Dolorum eum harum animi, at ut qui sit. Illum, eveniet. Illo, esse ab.
+            </p>
+
+        </div>
+    </section>
+    <!--HAKKIMIZDA END-->
+
+
+    <!--EKİBİMİZ START-->
+
+    <section class="p-5 text-center ekibimiz" id="ekibimiz">
+        <div class="container">
+            <h2 class="mb-5 font-weight-bold">Ekibimiz</h2>
+
+            <hr class="ayrac"><i class="fa-solid fa-leaf ibeyaz"></i>
+            <div class="row row-cols-1 row-cols-md-4 g-4">
+                <div class="col">
+                    <div class="card shadow ekipCard">
+                        <img src="img/doctor.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">PSK. ...</h5>
+                            <p class="card-text">Uzman Klinik Psikolog</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="card shadow ekipCard">
+                    <img src="img/doctor.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">PSK. ...</h5>
+                        <p class="card-text">OYUN TERAPİSTİ</p>
+                    </div>
+                </div>
+                <div class="card shadow ekipCard">
+                    <img src="img/doctor.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">PSK. ...</h5>
+                        <p class="card-text">PSİKOLOJİK DANIŞMAN</p>
+                    </div>
+                </div>
+                <div class="card shadow ekipCard">
+                    <img src="img/doctor.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">PSK. ...</h5>
+                        <p class="card-text">AİLE VE ÇİFT TERAPİSTİ</p>
+                    </div>
+                </div>
+                <div class="card shadow ekipCard">
+                    <img src="img/doctor.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">PSK. ...</h5>
+                        <p class="card-text">CİNSEL TERAPİST</p>
+                    </div>
+                </div>
+
+                <div class="card shadow ekipCard">
+                    <img src="img/doctor.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">PSK. ...</h5>
+                        <p class="card-text">PSİKOLOG</p>
+                    </div>
+                </div>
+
+                <div class="card shadow ekipCard">
+                    <img src="img/doctor.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">PSK. ...</h5>
+                        <p class="card-text">OYUN TERAPİSTİ</p>
+                    </div>
+                </div>
+
+                <div class="card shadow ekipCard">
+                    <img src="img/doctor.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">PSK. ...</h5>
+                        <p class="card-text">UZMAN KLİNİK PSİKOLOG</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!--EKİBİMİZ END-->
+
+
+    <!--HİZMETLERİMİZ START-->
+    <section class="p-5 text-center hizmetlerimiz" id="hizmetlerimiz">
+        <div class="container">
+            <h2 class="mb-5 font-weight-bold">HİZMETLERİMİZ</h2>
+
+            <hr class="ayrac"><i class="fa-solid fa-leaf igri"></i>
+
+            <div class="row">
+
+                <div class="col-md-3">
+                    <figure class="figure">
+                        <a href="img/oyun-terapisi.jpg">
+                             <img src="img/oyun-terapisi.jpg" class="figure-img img-fluid rounded shadow" alt="...">
+                        </a>
+                        <h5>OYUN TERAPİSİ</h5>
+                    </figure>
+                </div>
+
+                <div class="col-md-3">
+                    <figure class="figure">
+                        <a href="img/indir (1).jpeg">
+                             <img src="img/indir (1).jpeg" class="figure-img img-fluid rounded shadow" alt="...">
+                        </a>
+                        <h5>AİLE VE ÇİFT TERAPİSİ </h5>
+                    </figure>
+                </div>
+
+                <div class="col-md-3">
+                    <figure class="figure">
+                        <a href="img/kisilik-bozuklugu.jpg">
+                             <img src="img/kisilik-bozuklugu.jpg" class="figure-img img-fluid rounded shadow" alt="...">
+                        </a>
+                        <h5>KİŞİLİK BOZUKLUKLARI</h5>
+                    </figure>
+                </div>
+
+                <div class="col-md-3">
+                    <figure class="figure">
+                        <a href="img/Kayseri-EMDR-Terapisi.png">
+                             <img src="img/Kayseri-EMDR-Terapisi.png" class="figure-img img-fluid rounded shadow" alt="...">
+                        </a>
+                        <h5>EMDR TERAPİSİ</h5>
+                    </figure>
+                </div>
+
+                <div class="col-md-3">
+                    <figure class="figure">
+                        <a href="img/Panik-Bozuklugu-Tedavisinde-Etkili-Oldugunu-Kanitlamis-Bilissel-Davranisci-Tedavi-Yontemi.jpg">
+                             <img src="img/Panik-Bozuklugu-Tedavisinde-Etkili-Oldugunu-Kanitlamis-Bilissel-Davranisci-Tedavi-Yontemi.jpg" class="figure-img img-fluid rounded shadow" alt="...">
+                        </a>
+                        <H5>BİLİŞSEL DAVRANIŞÇI TERAPİ</H5>
+                    </figure>
+                </div>
+
+                <div class="col-md-3">
+                    <figure class="figure">
+                        <a href="img/okul_korkusu.jpg">
+                             <img src="img/okul_korkusu.jpg" class="figure-img img-fluid rounded shadow" alt="...">
+                        </a>
+                        <h5>OKUL FOBİSİ</h5>
+                    </figure>
+                </div>
+
+                <div class="col-md-3">
+                    <figure class="figure">
+                        <a href="img/bireysel-psikolojik-danisma.webp">
+                             <img src="img/bireysel-psikolojik-danisma.webp" class="figure-img img-fluid rounded shadow" alt="...">
+                        </a>
+                        <h5>BİREYSEL PSİKOLOJİK DANIŞMA</h5>
+                    </figure>
+                </div>
+
+                <div class="col-md-3">
+                    <figure class="figure">
+                        <a href="img/grup-psikoterapi-2252-3.jpg">
+                             <img src="img/grup-psikoterapi-2252-3.jpg" class="figure-img img-fluid rounded shadow" alt="...">
+                        </a>
+                        <h5>GRUPLA PSİKOLOJİK DANIŞMA</h5>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--HİZMETLERİMİZ END-->
+
+
+    <!--İLETİŞİM START-->
+
+    <section class="p-5 text-center iletisim" id="iletisim">
+        <div class="container">
+            <h2 class="mb-5 font-weight-bold">İletişim</h2>
+
+            <hr class="ayrac"><i class="fa-solid fa-leaf ibeyaz"></i>
+
+            <form action="" class="col-md-10 text-left m-auto">
+                <div class="form-group row">
+                    <label for="" class="col-md-4 align-self-center">Ad:</label>
+                    <input type="text" class="form-control col-md-8">
+                </div>
+
+                <div class="form-group row">
+                    <label for="" class="col-md-4 align-self-center">Soyad:</label>
+                    <input type="text" class="form-control col-md-8">
+                </div>
+
+                <div class="form-group row">
+                    <label for="" class="col-md-4 align-self-center">Email:</label>
+                    <input type="email" class="form-control col-md-8">
+                </div>
+                <div class="form-group row">
+                    <label for="" class="col-md-4 align-self-center">Mesajınız:</label>
+                    <textarea name="" id="" cols="30" rows="10" class="form-control col-md-8"></textarea>
+                </div>
+                <div  class="form-group row">
+                    <button type="submit" class="col-md-3 btn btn-danger">Gönder</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!--İLETİŞİM END-->
+
+    <!--FOOTER START-->
+
+    <div class="footer bg-dark text-light text-center">
+        <p class="align-middle p-5 mb-0">
+            <div class="footer-cols">
+                <ul>
+                    <li ><a href="">Kullanım Koşulları</a></li>
+                    <li ><a href="#iletisim">Bize Ulaşın</a></li>   
+                    <li ><a href="">Kurumsal Bilgiler</a></li>             
+                </ul>
+                <ul>
+                    <li ><a href="">Yardım Merkezi</a></li>
+                    <li ><a href="">İş İmkanları</a></li>
+                    <li ><a href="">Gizlilik</a></li>
+                </ul>
+                <ul>
+                    <li ><a href="">Hesap</a></li>
+                    <li ><a href="">Çerez Tercihleri</a></li>
+                    <li ><a href="">Yasal Hükümler</a></li>
+                </ul>
+            
+            </div>
+            <span>Tüm Haklar Saklıdır &copy; | 2023</span><br>
+           
+        </p>
+    </div>
+    <!--FOOTER END-->
+
+
+
+    <!--JAVASCRIPT-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
